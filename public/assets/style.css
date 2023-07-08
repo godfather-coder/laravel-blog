@@ -1,0 +1,129 @@
+.card{
+    border: rgb(59 130 246 / 0.5) 1px solid;
+    border-radius: 4px;
+}
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+}
+.delete-btn{
+    border: #1a202c 1px solid;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #421c24;
+    color: white;
+}
+.edit-btn{
+    background-color: rgb(59 130 246 / 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 1px;
+    margin-right: 3px;
+}
+.card-act{
+    display: flex;
+    flex-direction: row;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.input-wrapper label{
+    margin-bottom: 5px;
+}
+
+.input-wrapper .create-btn{
+    color: black;
+}
+
+.post-show{
+    border: 2px #2d3748 solid;
+    border-radius: 5px;
+    padding: 4px;
+}
+.postname{
+    font-weight: bold;
+    font-size: 30px;
+    color: #3a1607;
+}
+.post-desc{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.post-text{
+    color: #2d3748;
+}
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comment{
+    margin-top:5px ;
+    border: 2px #3a1607 solid;
+    border-radius: 10px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comment-list{
+    border: #1a202c solid 1px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3px;
+    border-radius: 4px;
+    padding: 2px;
+}
+.input{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 5px;
+    border: 1px #0d0d52 solid;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    padding-top: 4px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.edit-btn-comment{
+    background-color: rgb(59 130 246 / 0.5);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 1px;
+    margin-right: 3px;
+}
+.empty{
+    width: 14%;
+}
+.text-area{
+    height: 40px;
+    width: 80%;
+    overflow: hidden;
+    resize: none;
+}
+.comment-action{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
